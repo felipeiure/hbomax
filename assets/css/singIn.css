@@ -1,0 +1,64 @@
+@import url("style.css");
+
+nav{
+  position: relative;
+}
+
+main{
+  min-height: 75%; 
+}
+
+.signin-bg{
+  background: url("../images/background-movies-series.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.signin-card{
+  margin: 25px;
+  padding: 35px;
+  width: 740px;
+  min-height: 350px;
+  background: var(--form-bg-color) ;
+  border-radius: 5px;
+  font-family: Raleway, Arial, sans-serif;
+}
+
+.signin-card h1{
+  text-align: center;
+  
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+.signin-card p{
+  margin: 45px 0 25px;
+}
+
+.signin-card button{
+  margin-right: 25px;
+}
+
+.signin-card a{
+  color: var(--link-color);
+  font-weight: 600;
+}
+
+form input{
+  width: 95%;
+  height: 35px;
+  margin-bottom: 25px;
+  padding: 6px 12px;
+  background-color: var(--nav-bg-color);
+  border: var(--form-field-border);
+  border-radius: 8px;
+}
+
+::placeholder{
+  color: var(--form-field-placeholder);
+}
+
+input:invalid{
+  border: 1px solid var(--form-field-error);
+}
